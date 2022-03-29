@@ -1,0 +1,15 @@
+{
+  "name": "20220329_process_workshop",
+  "version": "1.0.0",
+  "description": "TASK function - ten_minute_walk? & must return to start Outout only: true / false Input array with 'n', 's', 'e', 's' Edge cases - you will not receive empty array or other digits.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
