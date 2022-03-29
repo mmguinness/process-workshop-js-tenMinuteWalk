@@ -24,5 +24,9 @@ describe('tenMinuteWalk', () => {
   it('outputs false if walk is exactly ten minutes long and s & n directions do not balance', () => {
     expect(tenMinuteWalk(['n', 'n', 'n', 'n', 'n', 'n', 'n', 's', 's', 's'])).toBe(false);
   });
+
+  it('outputs true if walk is exactly ten minutes long and s & n and w & e directions balance', () => {
+    expect(tenMinuteWalk(['n', 'n', 'e', 'w', 'e', 'w', 'e', 'w', 's', 's'])).toBe(true);
+  });
 });
 
